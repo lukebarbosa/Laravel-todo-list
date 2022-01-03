@@ -64,4 +64,5 @@ php artisan migrate
 ```terminal
 php artisan serve
 ```
+
 ## THE END
