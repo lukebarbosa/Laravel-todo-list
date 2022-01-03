@@ -21,6 +21,50 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+## Getting Started
+
+## Running the Project
+
+1. Clone the repository using this command:
+
+```terminal
+$ git clone https://github.com/lukebarbosa/Laravel-todo-list.git
+```
+
+2. Access the project folder on your terminal:
+
+```terminal
+$ cd Laravel-todo-list
+```
+
+3. Run the command to install all dependencies with Composer.
+
+```terminal
+$ composer install
+```
+
+4. Copy the .env.example config to a new file called .env
+
+```terminal
+$ cp .env.example .env
+```
+
+5. Change the database environment variables on .env:
+    - **DB_DATABASE**: Database that you created for the project.
+    - **DB_USERNAME**: MySQL username.
+    - **DB_PASSWORD**: MySQL password.
+    
+6. Run the migrations on terminal
+
+```terminal
+$ php artisan migrate
+```
+7. Run the application
+
+```terminal
+$ php artisan serve
+```
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
