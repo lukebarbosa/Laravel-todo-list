@@ -46,12 +46,18 @@ $ cp .env.example .env
     - **DB_USERNAME**: MySQL username.
     - **DB_PASSWORD**: MySQL password.
     
-6. Run the migrations on terminal
+6. Run the key generator on terminal
+
+```terminal
+$ php artisan key:generate
+```    
+
+7. Run the migrations on terminal
 
 ```terminal
 $ php artisan migrate
 ```
-7. Run the application
+8. Run the application
 
 ```terminal
 $ php artisan serve
