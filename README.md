@@ -25,19 +25,19 @@ git clone https://github.com/lukebarbosa/Laravel-todo-list.git
 
 2. Access the project folder on your terminal:
 
-```terminal
+``` terminal
 cd Laravel-todo-list
 ```
 
 3. Run the command to install all dependencies with Composer.
 
-```terminal
+``` terminal
 composer install
 ```
 
 4. Copy the .env.example config to a new file called .env
 
-```terminal
+``` terminal
 cp .env.example .env
 ```
 
@@ -48,18 +48,18 @@ cp .env.example .env
     
 6. Run the key generator on terminal
 
-```terminal
+``` terminal
 php artisan key:generate
 ```    
 
 7. Run the migrations on terminal
 
-```terminal
+``` terminal
 php artisan migrate
 ```
 8. Run the application
 
-```terminal
+``` terminal
 php artisan serve
 ```
 
