@@ -22,36 +22,30 @@ Follow the next steps so you can run the project without any errors.
 ``` terminal
 git clone https://github.com/lukebarbosa/Laravel-todo-list.git
 ```
-
 2. Access the project folder on your terminal:
 
 ``` terminal
 cd Laravel-todo-list
 ```
-
 3. Run the command to install all dependencies with Composer.
 
 ``` terminal
 composer install
 ```
-
 4. Copy the .env.example config to a new file called .env
 
 ``` terminal
 cp .env.example .env
 ```
-
 5. Change the database environment variables on .env:
     - **DB_DATABASE**: Database that you created for the project.
     - **DB_USERNAME**: MySQL username.
-    - **DB_PASSWORD**: MySQL password.
-    
+    - **DB_PASSWORD**: MySQL password.   
 6. Run the key generator on terminal
 
 ``` terminal
 php artisan key:generate
 ```    
-
 7. Run the migrations on terminal
 
 ``` terminal
@@ -62,7 +56,6 @@ php artisan migrate
 ``` terminal
 php artisan serve
 ```
-
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
