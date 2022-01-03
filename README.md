@@ -24,7 +24,7 @@ git clone https://github.com/lukebarbosa/Laravel-todo-list.git
 ```
 2. Access the project folder on your terminal:
 
-``` terminal
+```
 cd Laravel-todo-list
 ```
 3. Run the command to install all dependencies with Composer.
