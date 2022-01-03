@@ -19,22 +19,22 @@ Follow the next steps so you can run the project without any errors.
 
 1. Clone the repository using this command:
 
-```
+```terminal
 git clone https://github.com/lukebarbosa/Laravel-todo-list.git
 ```
 2. Access the project folder on your terminal:
 
-```
+```terminal
 cd Laravel-todo-list
 ```
 3. Run the command to install all dependencies with Composer.
 
-``` terminal
+```terminal
 composer install
 ```
 4. Copy the .env.example config to a new file called .env
 
-``` terminal
+```terminal
 cp .env.example .env
 ```
 5. Change the database environment variables on .env:
@@ -43,17 +43,17 @@ cp .env.example .env
     - **DB_PASSWORD**: MySQL password.   
 6. Run the key generator on terminal
 
-``` terminal
+```terminal
 php artisan key:generate
 ```    
 7. Run the migrations on terminal
 
-``` terminal
+```terminal
 php artisan migrate
 ```
 8. Run the application
 
-``` terminal
+```terminal
 php artisan serve
 ```
 ## Learning Laravel
