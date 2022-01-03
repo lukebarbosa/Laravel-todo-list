@@ -19,7 +19,7 @@ Follow the next steps so you can run the project without any errors.
 
 1. Clone the repository using this command:
 
-```terminal
+``` terminal
 git clone https://github.com/lukebarbosa/Laravel-todo-list.git
 ```
 
