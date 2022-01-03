@@ -13,6 +13,8 @@ The ideia is for create a application to add things you want to do, so you won't
 
 ## Getting Started
 
+Follow the next steps so you can run the project without any errors.
+
 ## Running the Project
 
 1. Clone the repository using this command:
